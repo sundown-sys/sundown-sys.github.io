@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: Lato, sans-serif;
+  transition: all 250ms;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to top, rgb(6, 60, 6), rgb(25, 25, 209));
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+center {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+
+  margin: 10%;
+  margin-top: 20%;
+  padding: 2%;
+}
+
+input{
+    padding: 5px;
+    margin: 5px 5px;
+    background-color: aliceblue;
+    border: 1px aliceblue solid;
+    border-radius: 3px;
+}
+
+button{
+    margin: 5px 13.5px;
+    padding: 5px 10px;
+    background-color: rgb(33, 33, 255) ;
+    border: 1px rgb(33, 33, 255) solid;
+    color: aliceblue;
+    border-radius: 3px;
+}
+
+h1{
+    color: aliceblue;
+
+
+}
+
+hr{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+button:hover{
+  background-color: blue;
+}
