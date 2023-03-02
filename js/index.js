@@ -31,7 +31,7 @@ function signIn() {
 
   for (i = 0; i < userInfo.length; i++) {
     if (username == userInfo[i].username && password == userInfo[i].password) {
-      alert("welcome ," + username);
+      alert("welcome," + " "  + username);
       setTimeout(sdr , 1000);
     }
     return;
